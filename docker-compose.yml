@@ -1,0 +1,9 @@
+study-py:
+  build: .
+  container_name: study-py
+  hostname: study-py
+  ports:
+    - 80:80
+  volumes:
+    - /c/Users/atos/develop/study-py:/home
+  tty: true
